@@ -6,6 +6,7 @@ Peerboop is the blue waving character in `peerboop-character.png`, approved on 2
 - `peerboop-avatar.svg` / `.png`: unchanged character fitted into a 512 × 512 avatar.
 - `desk-hero.svg` / `.png`: 1200 × 600 README ticket. Use the PNG in GitHub Markdown.
 - `desk-social.svg` / `.png`: 1200 × 630 social still.
+- `add-to-grok.html` / `.png`: the README’s Add to Grok button, rendered at 2× with headless Chrome.
 - `marketing/`: the four 1080 × 1350 launch images. Each `.html` is the editable layout, `captures/` holds the unedited chat crops and `build.py` renders the PNGs. Provenance is in [Media notes](../launch/MEDIA.md).
 
 The SVG files are editable **layouts containing the approved raster**, not vector versions of the character. Each embeds the PNG, so it is self-contained. Text and geometry remain editable. The retired linked-circle mascot is no longer used.

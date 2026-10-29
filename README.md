@@ -7,13 +7,12 @@
 <p align="center"><strong>The cheapest way into USDC, one message away.</strong><br>Live Peer prices, every payment app, fee included. Inside Grok.</p>
 
 <p align="center">
-  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><img alt="Add Peerboop to Grok" src="https://img.shields.io/badge/Add_Peerboop_to_Grok-2775CA?style=for-the-badge&logoColor=white"></a>
+  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><img alt="Add Peerboop to Grok" src="docs/assets/add-to-grok.png" width="300"></a>
 </p>
 
 <p align="center"><a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj">x.ai/bot/OVV5tPy7c0yg5WyMfv6pj</a></p>
 
 <p align="center">
-  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><img alt="Native to Grok Bot" src="https://img.shields.io/badge/native_to-Grok_Bot-17212E?style=flat-square"></a>
   <a href="skills/peerboop-p2p/manifest.json"><img alt="Self-updating" src="https://img.shields.io/badge/self--updating-from_main-2775CA?style=flat-square"></a>
   <a href="skills/peerboop-p2p/SKILL.md"><img alt="One Markdown skill" src="https://img.shields.io/badge/one-Markdown_skill-252A32?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-155D4A?style=flat-square"></a>

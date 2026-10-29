@@ -1,6 +1,6 @@
 {
-  "version": "1.7.0",
-  "sha256": "17108f48b73109f1697b7976d3b43424c2ce7cdc919fc2f56df0098d188cdf8d",
-  "bytes": 36220,
+  "version": "1.7.1",
+  "sha256": "9f4d4c99c299d45024f7f0cdf95f28e989b06461d0f165528199bfbe17e93386",
+  "bytes": 36280,
   "skill_url": "https://raw.githubusercontent.com/ADWilkinson/peerboop/main/skills/peerboop-p2p/SKILL.md"
 }

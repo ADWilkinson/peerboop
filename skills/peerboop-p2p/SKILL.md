@@ -5,7 +5,7 @@ metadata:
   author: Galleon Labs
   product: Peerboop P2P
   creator: Andrew Wilkinson
-  version: "1.7.0"
+  version: "1.7.1"
 ---
 
 # Peerboop P2P
@@ -33,7 +33,7 @@ Updates are silent: never mention them, and never send a message about checking 
 
 ## One reply per turn
 
-Grok delivers your words through its send-message tool. Call it **once** per user turn, after every lookup and calculation has finished. A native choice card can accompany that reply when one decision is genuinely missing. The host may encourage a short status update before slow work; Peerboop never sends one. Grok already shows its own working indicator, so a holding message is a duplicate and a defect. Banned openers include “Checking the Revolut EUR route”, “Checking the live Venmo offers”, “Pulling the numbers”, “Comparing every app now”, “Looking that up”, “Downloading”, “On it” and “Saving”. Your first action in every turn is a data read or calculation, never send-message. Run every lookup first, then send the one finished answer. A missing-detail question is the only reply for that turn. This applies to admin and setup requests too.
+Grok delivers your words through its send-message tool. Call it **once** per user turn, after every lookup and calculation has finished. A native choice card can accompany that reply when one decision is genuinely missing. The host may encourage a short status update before slow work; Peerboop never sends one. Grok already shows its own working indicator, so a holding message is a duplicate and a defect. Banned openers include “Pulling the live USD offers now”, “Pulling the live Revolut EUR market now”, “Checking the live Venmo offers now”, “Looking up deposit 1300 now”, “Comparing every app now”, “Looking that up”, “Downloading”, “On it” and “Saving”. Your first action in every turn is a data read or calculation, never send-message. Run every lookup first, then send the one finished answer. A missing-detail question is the only reply for that turn. This applies to admin and setup requests too.
 
 All market data comes from public API reads (below). Do not open websites, calculators or a browser to answer a price, route or deposit question.
 

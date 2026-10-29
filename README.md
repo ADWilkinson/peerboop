@@ -4,23 +4,33 @@
 
 <h1 align="center">Peerboop P2P</h1>
 
-<p align="center">Your USDC P2P desk, inside Grok.</p>
+<p align="center"><strong>The cheapest way into USDC, one message away.</strong><br>Live Peer prices, every payment app, fee included. Inside Grok.</p>
 
 <p align="center">
-  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><strong>Add to Grok →</strong></a>
-  · <a href="skills/peerboop-p2p/SKILL.md">Read the skill</a>
-  · <a href="docs/index.md">Explore the docs</a>
+  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><img alt="Add Peerboop to Grok" src="https://img.shields.io/badge/Add_Peerboop_to_Grok-2775CA?style=for-the-badge&logoColor=white"></a>
 </p>
 
+<p align="center"><a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj">x.ai/bot/OVV5tPy7c0yg5WyMfv6pj</a></p>
+
 <p align="center">
+  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><img alt="Native to Grok Bot" src="https://img.shields.io/badge/native_to-Grok_Bot-17212E?style=flat-square"></a>
+  <a href="skills/peerboop-p2p/manifest.json"><img alt="Self-updating" src="https://img.shields.io/badge/self--updating-from_main-2775CA?style=flat-square"></a>
+  <a href="skills/peerboop-p2p/SKILL.md"><img alt="One Markdown skill" src="https://img.shields.io/badge/one-Markdown_skill-252A32?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-155D4A?style=flat-square"></a>
-  <a href="skills/peerboop-p2p/SKILL.md"><img alt="Built with Markdown" src="https://img.shields.io/badge/built_with-Markdown-252A32?style=flat-square"></a>
-  <a href="https://x.ai/bot/OVV5tPy7c0yg5WyMfv6pj"><img alt="Native to Grok Bot" src="https://img.shields.io/badge/native_to-Grok_Bot-252A32?style=flat-square"></a>
 </p>
 
-Your pocket broker for USDC. Find the cheapest way to buy, see what your USDC is worth before you sell, and follow public deposits, all in Grok chat with live Peer market data. When you are ready, it hands you the right link.
+<p align="center">
+  <img src="docs/assets/marketing/01-buy.png" alt="Real Grok chat: cheapest way to buy 100 USDC with USD is Chime, Revolut or Wise at $102.98, fee 0.96 USDC included, next best Zelle $105.00" width="560">
+</p>
 
-## See Peerboop in Grok
+**Ask in plain words, get the number.** Peerboop reads every live offer on Peer, the peer-to-peer USDC market, and tells you the cheapest payment app for your amount with the fee already in. Selling? It gives you the market value and the price to beat. Got a deposit? Paste the number.
+
+- **Every payment app, live.** Revolut, Wise, Venmo, Cash App, Zelle, Monzo, PayPal and whatever lists next, read fresh for every question.
+- **The real total.** You pay, you get, fee included. Integer maths, checked against the orderbook.
+- **Zero setup.** No wallet, no keys, no sign-up to ask a price.
+- **Always current.** One self-updating skill: merge to `main` and every opted-in bot runs the new version within minutes.
+
+## More from the desk
 
 Real answers from the published bot, captured **29 October 2026** and checked against the live orderbook and indexer. Grok’s brief “Pulling…” line before each answer is left in. [Capture notes](docs/launch/MEDIA.md).
 

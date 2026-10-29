@@ -1,0 +1,21 @@
+name: check
+on: [push, pull_request]
+permissions:
+  contents: read
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate the skill and documentation
+        run: python3 scripts/check-skill.py
+      - name: Test the recipes distributed in the skill
+        run: python3 -m unittest discover -s tests
+      - name: Check the update manifest matches the skill
+        run: python3 scripts/release-manifest.py --check

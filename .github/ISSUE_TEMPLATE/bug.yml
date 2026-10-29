@@ -1,0 +1,29 @@
+name: Report a bot problem
+description: A wrong answer, broken handoff or confusing conversation
+body:
+  - type: markdown
+    attributes:
+      value: Share the prompt and answer with personal details removed. Never include keys, bank details, payment proofs or private order data.
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What did you ask?
+      description: Include the follow-up context needed to reproduce it.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Skill version and date
+      placeholder: e.g. 1.2.1, 29 October 2026
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source or screenshot
+      description: Public source links help verify rate, fee and payment-method issues.

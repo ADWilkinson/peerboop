@@ -1,0 +1,17 @@
+name: Suggest an improvement
+description: Make the desk more useful in chat
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you ask the desk to do?
+      description: A concrete example conversation is useful.
+    validations:
+      required: true
+  - type: textarea
+    id: answer
+    attributes:
+      label: What would a useful answer look like?
+      description: The product uses one Markdown skill and Grok's existing tools. Trading happens on the linked sites.
+    validations:
+      required: true

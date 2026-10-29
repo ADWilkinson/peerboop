@@ -45,7 +45,7 @@ If a price cannot be verified, the reply should say so briefly and offer the cor
 
 ## Release a change
 
-Bump `metadata.version` in SKILL.md, run `python3 scripts/release-manifest.py`, and commit both files. Once that is merged to `main`, every installed Peerboop picks it up on its next turn. Never republish the Grok template for a skill change. Change the startup note only when the update rule or safety limits themselves must change; that needs a template republish.
+Bump `metadata.version` in SKILL.md, run `python3 scripts/release-manifest.py`, and commit both files. Once that is merged to `main`, installed bots see it within about five minutes (GitHub caches raw files). Bots whose owner chose **always update** install it silently on their next turn; others offer it once in a single line. Never republish the Grok template for a skill change. Change the startup note only when the update rule or safety limits themselves must change; that needs a template republish.
 
 ## Open a pull request
 

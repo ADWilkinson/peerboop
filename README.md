@@ -90,9 +90,9 @@ The whole bot is [**SKILL.md**](skills/peerboop-p2p/SKILL.md): readable Markdown
 **It keeps itself up to date.** Every installed bot checks [`manifest.json`](skills/peerboop-p2p/manifest.json) at the start of each turn. When `main` has a newer version, Peerboop offers it once in a single line. Reply **always update** and from then on it silently downloads each new skill, checks its SHA-256 and replaces its own copy. Grok asks for that one-time consent before a bot rewrites itself. The Grok template is published once; merging a new skill to `main` is the release. The safety limits (no trading, signing, funds, wallets or credentials, and TOFIAT on Peer links) live in the bot’s startup note, which an update cannot change.
 
 ```text
-skills/peerboop-p2p/SKILL.md   The bot
-docs/                         Design, sources and verification
-skills/peerboop-p2p/manifest.json  Version and hash installed bots update from
+skills/peerboop-p2p/SKILL.md        The bot
+skills/peerboop-p2p/manifest.json   Version and hash installed bots update from
+docs/                               Design, sources and verification
 ```
 
 ## Make it better

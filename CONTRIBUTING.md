@@ -21,7 +21,10 @@ Run the dependency-free repository check:
 ```sh
 python3 scripts/check-skill.py
 python3 -m unittest discover -s tests
+python3 scripts/release-manifest.py --check
 ```
+
+If you bumped `metadata.version` in the skill, run `python3 scripts/release-manifest.py` first so `manifest.json` carries the new version and hash.
 
 If available, run the Agent Skills validator too:
 
